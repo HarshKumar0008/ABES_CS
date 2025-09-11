@@ -1,0 +1,48 @@
+#container-box{
+    border: 2px solid black;
+    display: flex;
+    flex-direction:row;
+    height: 250px;
+    width: 560px;
+    gap: 4px;
+}
+.box{
+    border: 2px solid grey;
+    width: 140px;
+    height: auto;
+    
+}
+.box:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+.box:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    background-color: chocolate;
+}
+.box:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    background-color:blue;
+}
+.box:nth-child(4){
+    display: flex;
+    flex-direction: row;
+    background-color:green;
+}
+.box:nth-child(1)>div,
+.box:nth-child(3)>div{
+    width: auto;
+    height: 50%;
+}
+.box:nth-child(2)>div,
+.box:nth-child(4)>div{
+    width: 50%;
+    height: 120px;
+}
+img{
+    height: 100px;
+    width: 130px;
+}
