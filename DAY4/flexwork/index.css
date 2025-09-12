@@ -12,6 +12,10 @@
     height: auto;
     
 }
+.box:hover{
+   cursor: pointer;
+    
+}
 .box:nth-child(1){
     display: flex;
     flex-direction: column;
@@ -42,7 +46,14 @@
     width: 50%;
     height: 120px;
 }
-img{
-    height: 100px;
+.box:nth-child(1)>div>img,
+.box:nth-child(3)>div>img{
+   height: 100px;
     width: 130px;
 }
+.box:nth-child(2)>div>img,
+.box:nth-child(4)>div>img{
+   height: 100px;
+    width: 70px;
+}
+
